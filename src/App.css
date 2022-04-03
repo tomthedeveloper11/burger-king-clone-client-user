@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.insaniBurgerFont {
+  font-family: 'insaniBurgerCheese';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'insaniBurgerCheese';
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.red-outline-button {
+  height: 40px;
+  border-radius: 100px;
+}
+
+/* ============= NavBar ============== */
+.navItem {
+  font-family: 'insaniBurgerCheese';
+  color: #502314;
+}
+
+/* ============= Home Card ============== */
+
+.home-card {
+  width: 35rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0 2px 0px;
+}
+
+.home-card-img {
+  border-radius: 12px 12px 0 0;
+}
+
+/* ============= Menu And Category Page ============== */
+
+.page-header {
+  background-color: #502314;
+  color: #f5ebdc;
+  padding: 60px;
+}
+
+.page-title {
+  font-size: 4rem;
+}
+
+.page-container {
+  padding: 30px 180px;
+}
+
+.category-card {
+  width: 20rem;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0 2px 0px;
+}
+
+.category-card-img {
+  border-radius: 12px 12px 0 0;
+  height: 240px;
+  object-fit: scale-down;
+}
+
+.category-card-title {
+  color: #502314;
+}
+
+.item-card-img {
+  height: 250px;
+}
+
+.item-card-name{
+  color: #502314;
+}
+
+.item-card-price{
+  color: #ab876f;
+}
+
+.back-button{
+  border-radius: 100px;
+}
+
+/* ============= Call To Action ============== */
+
+.cta-container {
+  background-color: #efe1cc;
+  margin-top: 150px;
+}
+
+.cta-img-container {
+  margin-left: 300px;
+}
+
+.cta-img {
+  height: 600px;
+  margin-top: -80px;
+}
+
+.apple-button {
+  height: 70px;
+  margin-top: 15px;
+}
+
+.google-button {
+  height: 100px;
+}
+
+/* ============= Footer ============== */
+
+.footer-container {
+  padding: 100px 120px;
+  background-color: #2b0200;
+  color: #f5ebdc;
+  line-height: 0.5rem;
+}
+
+#footer-links p {
+  color: #bba391;
+}
